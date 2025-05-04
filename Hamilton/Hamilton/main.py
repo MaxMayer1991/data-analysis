@@ -13,7 +13,7 @@ data = {
 # Creating the dataframe
 df = pd.DataFrame(data)
 
-df
+df.describe
 #%%
 # Calculate the sums
 sum_apples = df['Apples'].sum()
